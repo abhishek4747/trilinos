@@ -48,11 +48,11 @@ Unit testing of the MsqHessian class.
 
 
 #include "PatchDataInstances.hpp"
-#include "MsqHessian.hpp"
+#include "Mesquite_MsqHessian.hpp"
 
 #include <math.h>
 
-#include "cppunit/extensions/HelperMacros.h"
+#include "Mesquite_cppunit/extensions/HelperMacros.h"
 
 using namespace Mesquite;
 using std::cout;

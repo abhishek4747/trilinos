@@ -31,8 +31,8 @@
  */
 
 #include "Mesquite.hpp"
-#include "VertexConditionNumberQualityMetric.hpp"
-#include "cppunit/extensions/HelperMacros.h"
+#include "Mesquite_VertexConditionNumberQualityMetric.hpp"
+#include "Mesquite_cppunit/extensions/HelperMacros.h"
 #include "QualityMetricTester.hpp"
 
 using namespace Mesquite;

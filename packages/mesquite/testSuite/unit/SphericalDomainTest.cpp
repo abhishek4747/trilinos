@@ -32,8 +32,8 @@
 
 #include "Mesquite.hpp"
 #include "UnitUtil.hpp"
-#include "SphericalDomain.hpp"
-#include "ArrayMesh.hpp"
+#include "Mesquite_SphericalDomain.hpp"
+#include "Mesquite_ArrayMesh.hpp"
 
 using namespace Mesquite;
 

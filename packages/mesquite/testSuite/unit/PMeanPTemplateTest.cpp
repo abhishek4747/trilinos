@@ -31,12 +31,12 @@
  */
 
 #include "Mesquite.hpp"
-#include "PMeanPTemplate.hpp"
-#include "MsqError.hpp"
-#include "PatchData.hpp"
+#include "Mesquite_PMeanPTemplate.hpp"
+#include "Mesquite_MsqError.hpp"
+#include "Mesquite_PatchData.hpp"
 #include "UnitUtil.hpp"
-#include "VertexQM.hpp"
-#include "MsqHessian.hpp"
+#include "Mesquite_VertexQM.hpp"
+#include "Mesquite_MsqHessian.hpp"
 
 #include "ObjectiveFunctionTests.hpp"
 

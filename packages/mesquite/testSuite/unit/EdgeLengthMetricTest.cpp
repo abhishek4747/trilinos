@@ -31,8 +31,8 @@
  */
 
 #include "Mesquite.hpp"
-#include "EdgeLengthMetric.hpp"
-#include "cppunit/extensions/HelperMacros.h"
+#include "Mesquite_EdgeLengthMetric.hpp"
+#include "Mesquite_cppunit/extensions/HelperMacros.h"
 #include "QualityMetricTester.hpp"
 
 using namespace Mesquite;

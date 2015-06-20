@@ -25,11 +25,11 @@
   ***************************************************************** */
 
 #include "Mesquite.hpp"
-#include "VertexPatches.hpp"
-#include "GlobalPatch.hpp"
-#include "MeshInterface.hpp"
-#include "Instruction.hpp"
-#include "MsqError.hpp"
+#include "Mesquite_VertexPatches.hpp"
+#include "Mesquite_GlobalPatch.hpp"
+#include "Mesquite_MeshInterface.hpp"
+#include "Mesquite_Instruction.hpp"
+#include "Mesquite_MsqError.hpp"
 #include "UnitUtil.hpp"
 
 #include <assert.h>

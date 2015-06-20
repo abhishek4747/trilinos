@@ -31,7 +31,7 @@
  */
 
 #include "Mesquite.hpp"
-#include "MsqGeomPrim.hpp"
+#include "Mesquite_MsqGeomPrim.hpp"
 #include "UnitUtil.hpp"
 
 using namespace Mesquite;

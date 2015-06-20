@@ -31,7 +31,7 @@
  */
 
 #include "Mesquite.hpp"
-#include "NodeSet.hpp"
+#include "Mesquite_NodeSet.hpp"
 #include "UnitUtil.hpp"
 
 using namespace Mesquite;

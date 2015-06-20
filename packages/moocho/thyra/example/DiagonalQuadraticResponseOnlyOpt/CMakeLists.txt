@@ -1,4 +1,3 @@
-INCLUDE(TribitsAddExecutableAndTest)
 
 
 #
@@ -64,7 +63,7 @@ TRIBITS_ADD_TEST( EpetraExtDiagonalQuadraticResponseOnlyOpt
 TRIBITS_ADD_EXECUTABLE_AND_TEST( ThyraDiagonalQuadraticResponseOnlyOpt
   SOURCES
     ThyraDiagonalQuadraticResponseOnlyOptMain.cpp
-  DEPLIBS thyra_nonlinear_test_models
+  TESTONLYLIBS thyra_nonlinear_test_models
   NUM_MPI_PROCS 1
   )
 

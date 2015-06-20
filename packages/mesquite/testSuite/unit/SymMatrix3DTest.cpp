@@ -25,7 +25,7 @@
   ***************************************************************** */
 
 
-#include "SymMatrix3D.hpp"
+#include "Mesquite_SymMatrix3D.hpp"
 
 #include <math.h>
 

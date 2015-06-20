@@ -31,10 +31,10 @@
  */
 
 #include "Mesquite.hpp"
-#include "UntangleBetaQualityMetric.hpp"
-#include "cppunit/extensions/HelperMacros.h"
+#include "Mesquite_UntangleBetaQualityMetric.hpp"
+#include "Mesquite_cppunit/extensions/HelperMacros.h"
 #include "QualityMetricTester.hpp"
-#include "PatchData.hpp"
+#include "Mesquite_PatchData.hpp"
 #include "UnitUtil.hpp"
 
 using namespace Mesquite;
