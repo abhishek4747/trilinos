@@ -62,68 +62,68 @@ TRIBITS_REPOSITORY_DEFINE_PACKAGES(
   ThreadPool            packages/ThreadPool               PS # Depends on Pthreads
   Kokkos                packages/kokkos                   PS
   Teuchos               packages/teuchos                  PS
-  RTOp                  packages/rtop                     PS
-  Sacado                packages/sacado                   PS
+#  RTOp                  packages/rtop                     PS
+#  Sacado                packages/sacado                   PS
   Epetra                packages/epetra                   PS
   Zoltan                packages/zoltan                   PS
-  Shards                packages/shards                   PS
-  GlobiPack             packages/globipack                PS
+#  Shards                packages/shards                   PS
+#  GlobiPack             packages/globipack                PS
   Triutils              packages/triutils                 PS
   Tpetra                packages/tpetra                   PS
   EpetraExt             packages/epetraext                PS
   Xpetra                packages/xpetra                   PS
-  Domi                  packages/domi                     EX
-  Thyra                 packages/thyra                    PS
-  OptiPack              packages/optipack                 PS
-  Isorropia             packages/isorropia                PS
-  Pliris                packages/pliris                   PS
+#  Domi                  packages/domi                     EX
+#  Thyra                 packages/thyra                    PS
+#  OptiPack              packages/optipack                 PS
+#  Isorropia             packages/isorropia                PS
+#  Pliris                packages/pliris                   PS
 #  Claps                 packages/claps                    EX
-  AztecOO               packages/aztecoo                  PS
+#  AztecOO               packages/aztecoo                  PS
   Galeri                packages/galeri                   PS
-  Amesos                packages/amesos                   PS
-  Amesos2               packages/amesos2                  SS
+#  Amesos                packages/amesos                   PS
+#  Amesos2               packages/amesos2                  SS
   Pamgen                packages/pamgen                   PS
-  SEACAS                packages/seacas                   SS # Depends on netcdf, optionally hdf5, xdmf, pamgen
-  Trios                 packages/trios                    EX #temporary
-  Ifpack                packages/ifpack                   PS
-  Komplex               packages/komplex                  PS
-  ML                    packages/ml                       PS
-  Belos                 packages/belos                    PS
-  Anasazi               packages/anasazi                  PS
+#  SEACAS                packages/seacas                   SS # Depends on netcdf, optionally hdf5, xdmf, pamgen
+#  Trios                 packages/trios                    EX #temporary
+#  Ifpack                packages/ifpack                   PS
+#  Komplex               packages/komplex                  PS
+#  ML                    packages/ml                       PS
+#  Belos                 packages/belos                    PS
+#  Anasazi               packages/anasazi                  PS
   Zoltan2               packages/zoltan2                  SS
-  Ifpack2               packages/ifpack2                  PS
-  ShyLU                 packages/shylu                    SS
-  Stratimikos           packages/stratimikos              PS
-  FEI                   packages/fei                      PS
-  Teko                  packages/teko                     SS
+#  Ifpack2               packages/ifpack2                  PS
+#  ShyLU                 packages/shylu                    SS
+#  Stratimikos           packages/stratimikos              PS
+#  FEI                   packages/fei                      PS
+#  Teko                  packages/teko                     SS
 #  RBGen                 packages/rbgen                    PS
-  TriKota               packages/TriKota                  SS
-  Intrepid              packages/intrepid                 PS
-  STK                   packages/stk                      SS # Depends on boost
-  Phalanx               packages/phalanx                  SS
-  Phdmesh               packages/phdmesh                  EX # to be replaced by STK
-  NOX                   packages/nox                      PS
-  Moertel               packages/moertel                  PS
-  MueLu                 packages/muelu                    SS
-  Rythmos               packages/rythmos                  PS
-  MOOCHO                packages/moocho                   PS
+#  TriKota               packages/TriKota                  SS
+#  Intrepid              packages/intrepid                 PS
+#  STK                   packages/stk                      SS # Depends on boost
+#  Phalanx               packages/phalanx                  SS
+#  Phdmesh               packages/phdmesh                  EX # to be replaced by STK
+#  NOX                   packages/nox                      PS
+#  Moertel               packages/moertel                  PS
+#  MueLu                 packages/muelu                    SS
+#  Rythmos               packages/rythmos                  PS
+#  MOOCHO                packages/moocho                   PS
 #  Aristos               packages/aristos                  EX
-  Stokhos               packages/stokhos                  SS
-  ROL                   packages/rol                      SS
-  Piro                  packages/piro                     SS
-  Panzer                packages/panzer                   SS
-  Sundance              packages/Sundance                 SS # Could be PS based on deps (BUG: 4669)
-  CTrilinos             packages/CTrilinos                SS # Switched to SS to speed up checkin testing
-  ForTrilinos           packages/ForTrilinos              EX
-  PyTrilinos            packages/PyTrilinos               SS
-  WebTrilinos           packages/WebTrilinos              EX # Should be SS
-  Didasko               packages/didasko                  SS
-  NewPackage            packages/new_package              EX # Should be SS
-  Optika		packages/optika		          EX
-  Mesquite              packages/mesquite                 PS
-  MeshingGenie          packages/meshinggenie             EX
-  TrilinosCouplings     packages/trilinoscouplings        SS
-  Pike                  packages/pike                     SS
+#  Stokhos               packages/stokhos                  SS
+#  ROL                   packages/rol                      SS
+#  Piro                  packages/piro                     SS
+#  Panzer                packages/panzer                   SS
+#  Sundance              packages/Sundance                 SS # Could be PS based on deps (BUG: 4669)
+#  CTrilinos             packages/CTrilinos                SS # Switched to SS to speed up checkin testing
+#  ForTrilinos           packages/ForTrilinos              EX
+#  PyTrilinos            packages/PyTrilinos               SS
+#  WebTrilinos           packages/WebTrilinos              EX # Should be SS
+#  Didasko               packages/didasko                  SS
+#  NewPackage            packages/new_package              EX # Should be SS
+#  Optika		packages/optika		          EX
+#  Mesquite              packages/mesquite                 PS
+#  MeshingGenie          packages/meshinggenie             EX
+#  TrilinosCouplings     packages/trilinoscouplings        SS
+#  Pike                  packages/pike                     SS
 #  FEApp                 demos/FEApp                       SS # Capability demonstration package
   )
 
