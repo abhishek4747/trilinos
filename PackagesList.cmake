@@ -77,7 +77,7 @@ TRIBITS_REPOSITORY_DEFINE_PACKAGES(
   OptiPack              packages/optipack                 PS
   Isorropia             packages/isorropia                PS
   Pliris                packages/pliris                   PS
-  Claps                 packages/claps                    EX
+#  Claps                 packages/claps                    EX
   AztecOO               packages/aztecoo                  PS
   Galeri                packages/galeri                   PS
   Amesos                packages/amesos                   PS
@@ -96,7 +96,7 @@ TRIBITS_REPOSITORY_DEFINE_PACKAGES(
   Stratimikos           packages/stratimikos              PS
   FEI                   packages/fei                      PS
   Teko                  packages/teko                     SS
-  RBGen                 packages/rbgen                    PS
+#  RBGen                 packages/rbgen                    PS
   TriKota               packages/TriKota                  SS
   Intrepid              packages/intrepid                 PS
   STK                   packages/stk                      SS # Depends on boost
@@ -107,7 +107,7 @@ TRIBITS_REPOSITORY_DEFINE_PACKAGES(
   MueLu                 packages/muelu                    SS
   Rythmos               packages/rythmos                  PS
   MOOCHO                packages/moocho                   PS
-  Aristos               packages/aristos                  EX
+#  Aristos               packages/aristos                  EX
   Stokhos               packages/stokhos                  SS
   ROL                   packages/rol                      SS
   Piro                  packages/piro                     SS
@@ -124,7 +124,7 @@ TRIBITS_REPOSITORY_DEFINE_PACKAGES(
   MeshingGenie          packages/meshinggenie             EX
   TrilinosCouplings     packages/trilinoscouplings        SS
   Pike                  packages/pike                     SS
-  FEApp                 demos/FEApp                       SS # Capability demonstration package
+#  FEApp                 demos/FEApp                       SS # Capability demonstration package
   )
 
 
